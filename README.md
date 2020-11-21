@@ -27,6 +27,7 @@
   - [Approach](#)
   - [Demo on mangoes](#)
   - [Test this demo](#)
+  - [ML Model files trained in demo](#)
 
 
 ## Hackathon Submissions
@@ -101,3 +102,13 @@ MobileNet doesn't necessarily know whether a mango is in good condition or not, 
 
 #### Why demo on web?
 The model we have trained in this hackathon is [Tensorflow.js](https://www.tensorflow.org/js) model that work anywhere javascript runs, plays nice with [P5.js](https://p5js.org/), [ML5.js](https://ml5js.org/) & more, so it's easier to test and have a demo quickly.
+
+### ML Model files trained in demo
+
+Model Types   | Files | Including
+------------- | ----- | ---------
+Tensorflow.js | [Link to files](https://github.com/AgrionTeam/Agrion) | `metadata.json` + `model.json` + `weights.bin`
+Tensorflow Lite (Floating Point) | [Link to files](https://github.com/AgrionTeam/Agrion) | `model_unquant.tflite` + `labels.txt`
+Tensorflow Lite (Quantized) | [Link to files](https://github.com/AgrionTeam/Agrion) | `model.tflite` + `labels.txt`
+Tensorflow (Saved model) | [Link to files](https://github.com/AgrionTeam/Agrion) | `model.savedmodel` folder + `labels.txt`
+Keras (.h5 model) | [Link to files](https://github.com/AgrionTeam/Agrion) | `keras_model.h5` + `labels.txt`

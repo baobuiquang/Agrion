@@ -1,0 +1,3 @@
+0 In Good Condition
+1 In Bad Condition
+2 No Input
