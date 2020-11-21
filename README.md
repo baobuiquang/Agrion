@@ -1,11 +1,8 @@
 <br>
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/othneildrew/Best-README-Template/raw/master/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/logo-black.png" alt="Logo" height="100">
   </a>
-
-  <h2 align="center">AGRION</h3>
-
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br>
@@ -47,11 +44,14 @@ blah blah
 ## AGRION VISION - The Core AI Function
 
 ### How AI was applied
-The core AI function - Agrion Vision - is an application of **Computer Vision** technology.
+The core AI function - Agrion Vision - is an application of **Image Classification** in **Computer Vision** technology.
 
-We use a technique called **Transfer Learning**, namely MobileNets - a pre-trained Convolutional Neural Networks, to train the machine learning model to recognize the agricultural products are in good or bad condition and predict how long they remain usable from photos that users uploaded.
+We use a technique called **Transfer Learning**, namely **MobileNets** - a pre-trained Convolutional Neural Networks - to train the machine learning model to recognize the agricultural products are in good or bad condition and predict how long they remain usable from photos that users uploaded.
 
-The model we train is **Tensorflow** model that can be exported into 2 types: Tensorflow Lite to implement on mobile apps (in collaboration with Flutter) and Tensorflow.js to implement on the web.
+The model we train is **Tensorflow** model that can be exported into 2 types: **Tensorflow Lite** to implement on mobile apps (in collaboration with Flutter) and **Tensorflow.js** to implement on the web.
+
+In the Agrion Vision demo for this hackathon, we have gathered and trained the model using a dataset including approximately 1470 images of mangoes with “in-good-condition” label and 1380 images of mangoes with “in-bad-condition” label. The accuracy of this model is pretty high, even in different backgrounds, it still recognizes which mango is in good or bad condition.
+
 
 ### Approach
 
@@ -91,4 +91,4 @@ MobileNet doesn't necessarily know whether a mango is in good condition or not, 
 4. Test with mangoes 🥭
 
 #### Why demo on web?
-The model we have trained in this hackathon is [Tensorflow.js](https://www.tensorflow.org/js) model that work anywhere javascript runs, they play nice with [P5.js](https://p5js.org/), [ML5.js](https://ml5js.org/) & more, so it's easy to test and demo.
+The model we have trained in this hackathon is [Tensorflow.js](https://www.tensorflow.org/js) model that work anywhere javascript runs, plays nice with [P5.js](https://p5js.org/), [ML5.js](https://ml5js.org/) & more, so it's easier to test and have a demo quickly.
