@@ -1,18 +1,20 @@
 <br>
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="assets/logo-black.png" alt="Logo" height="100">
+    <img src="assets/logo-black.png" alt="Logo" height="150">
   </a>
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    The Future's bright –The Future's an AI Agriculture Marketplace
     <br>
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br>
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="#">Video</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="#">Slide</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="#">Prototype</a>
+    ·
+    <a href="#">Business Model</a>
+    ·
+    <a href="#">Demo</a>
   </p>
 </p>
 
@@ -31,15 +33,22 @@
 Content | Link
 ------- | -------------
 Github  | [Link to Github](https://github.com/AgrionTeam/Agrion) (You're at here)
-Video   | [Link to video on Vimeo](https://github.com/AgrionTeam/Agrion)
+Video   | [Link to video on Youtube](https://github.com/AgrionTeam/Agrion)
 Slide   | [Link to slide](https://github.com/AgrionTeam/Agrion)
 App Prototype | [Link to Mobile App Prototype on Figma](https://github.com/AgrionTeam/Agrion)
 Business Model Canvas | [Link to AGRION's BMC](https://github.com/AgrionTeam/Agrion)
 
 
 ## About AGRION Project
-blah blah
+AGRION is an online agriculture marketplace that
+- Helps farmers across the country sell crops directly and make better profits, as middlemen are reduced
+- Benefits the customers who get fresh produce at better prices/conditions
 
+by using **Agrion Vision**, our core AI function, which can
+- Recognize agriculture products are in good or bad condition
+- Predict the maturity of agricultural products so users can know how long they remain usable
+
+in order to help both farmers and customers easier and quicker in the dealing process, to rescue the excess agriculture inventory.
 
 ## AGRION VISION - The Core AI Function
 
