@@ -97,6 +97,8 @@ MobileNet doesn't necessarily know whether a mango is in good condition or not, 
 ![png](assets/demo.gif)
 *Realtime Screen Recording*
 
+More at [Link to Google Drive](https://bom.to/oocKraE)
+
 ### Test this demo
 1. Clone this repository
     ```
