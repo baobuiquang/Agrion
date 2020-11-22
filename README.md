@@ -29,7 +29,7 @@
   - [Demo on mangoes](#demo-on-mangoes)
   - [Test this demo](#test-this-demo)
   - [ML Model files trained in demo](#ml-model-files-trained-in-demo)
-
+- [Our Team](#our-team)
 
 ## Hackathon Submissions
 Content | Link
@@ -119,3 +119,8 @@ Tensorflow Lite (Floating Point) | [Link to files](https://github.com/AgrionTeam
 Tensorflow Lite (Quantized) | [Link to files](https://github.com/AgrionTeam/Agrion/tree/main/trained_models/converted_tflite_quantized) | `model.tflite` + `labels.txt`
 Tensorflow (Saved model) | [Link to files](https://github.com/AgrionTeam/Agrion/tree/main/trained_models/converted_savedmodel) | `model.savedmodel` folder + `labels.txt`
 Keras (.h5 model) | [Link to files](https://github.com/AgrionTeam/Agrion/tree/main/trained_models/converted_keras) | `keras_model.h5` + `labels.txt`
+
+## Our Team
+- Lê Thanh Mai (mai.lthanh2604@gmail.com) - Product Planner
+- Trần Thị Phương Anh (ttpanhh@gmail.com) - Designer
+- Bùi Quang Bảo (quangbao.dev@gmail.com) - 2nd-year student - Developer
