@@ -26,13 +26,8 @@
 - [AGRION VISION - The Core AI Function](#agrion-vision---the-core-ai-function)
   - [How AI was applied](#how-ai-was-applied)
   - [Approach](#approach)
-    - [Machine Learning](#machine-learning)
-    - [TensorFlow](#tensorflow)
-    - [Teachable Machine](#teachable-machine)
   - [Demo on mangoes](#demo-on-mangoes)
-    - [Recognize a mango is in good or bad condition](#recognize-a-mango-is-in-good-or-bad-condition)
   - [Test this demo](#test-this-demo)
-    - [Why demo on web?](#why-demo-on-web)
   - [ML Model files trained in demo](#ml-model-files-trained-in-demo)
 
 
@@ -72,15 +67,18 @@ In the Agrion Vision demo for this hackathon, we have gathered and trained the m
 
 ### Approach
 
-#### Machine Learning
+**Machine Learning**
+
 Machine Learning is an application of AI that provides computers the ability to learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of programs that can access data and use it to learn for themselves without human intervention or assistance and adjust actions.
 
 The process of learning begins with observations of data in order to look for patterns, make better decisions based on the data that we provide. Once we have trained a machine learning model, we can use it to reason over data that it hasn't seen before, and make predictions about those data.
 
-#### TensorFlow
+**TensorFlow**
+
 TensorFlow is an end-to-end open-source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in Machine learning and developers easily build and deploy ML-powered applications.
 
-#### Teachable Machine
+**Teachable Machine**
+
 Teachable Machine is a tool that makes creating machine learning models fast and easy. The models trained with Teachable Machine are real TensorFlow.js models.
 
 Teachable Machine is using a technique called [**Transfer Learning**](https://www.tensorflow.org/tutorials/images/transfer_learning). There is a neural network that was previously trained on a large dataset, typically on a large-scale image-classification task. This model is called MobileNet and the training data for this model is called ImageNet.
@@ -93,7 +91,8 @@ MobileNet doesn't necessarily know whether a mango is in good condition or not, 
 
 
 ### Demo on mangoes
-#### Recognize a mango is in good or bad condition
+**Recognize a mango is in good or bad condition**
+
 *(If you don't see any gif here, please reload the page)*
 ![png](assets/demo.gif)
 *Realtime Screen Recording*
@@ -107,7 +106,8 @@ MobileNet doesn't necessarily know whether a mango is in good condition or not, 
 3. Allow the web to access camera
 4. Test with mangoes 🥭
 
-#### Why demo on web?
+**Why demo on web?**
+
 The model we have trained in this hackathon is [Tensorflow.js](https://www.tensorflow.org/js) model that work anywhere javascript runs, plays nice with [P5.js](https://p5js.org/), [ML5.js](https://ml5js.org/) & more, so it's easier to test and have a demo quickly.
 
 ### ML Model files trained in demo
