@@ -6,38 +6,45 @@
   <p align="center">
     The Future's bright –The Future's an AI Agriculture Marketplace
     <br>
-    <a href="#">Video</a>
+    <a href="https://youtu.be/xKiDZIgeL1M">Video</a>
     ·
-    <a href="#">Slide</a>
+    <a href="https://bom.to/vJOg9JI">Slide</a>
     ·
-    <a href="#">Prototype</a>
+    <a href="https://bom.to/vG74DzM">Prototype</a>
     ·
-    <a href="#">Business Model</a>
+    <a href="https://bom.to/Wn6h8y1">Business Model</a>
     ·
-    <a href="#">Demo</a>
+    <a href="#Test-this-demo">Demo</a>
   </p>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-- [Hackathon Submissions](#)
-- [About AGRION Project](#)
-- [AGRION VISION - The Core AI Function](#)
-  - [How AI was applied](#)
-  - [Approach](#)
-  - [Demo on mangoes](#)
-  - [Test this demo](#)
-  - [ML Model files trained in demo](#)
+- [Table of Contents](#table-of-contents)
+- [Hackathon Submissions](#hackathon-submissions)
+- [About AGRION Project](#about-agrion-project)
+- [AGRION VISION - The Core AI Function](#agrion-vision---the-core-ai-function)
+  - [How AI was applied](#how-ai-was-applied)
+  - [Approach](#approach)
+    - [Machine Learning](#machine-learning)
+    - [TensorFlow](#tensorflow)
+    - [Teachable Machine](#teachable-machine)
+  - [Demo on mangoes](#demo-on-mangoes)
+    - [Recognize a mango is in good or bad condition](#recognize-a-mango-is-in-good-or-bad-condition)
+  - [Test this demo](#test-this-demo)
+    - [Why demo on web?](#why-demo-on-web)
+  - [ML Model files trained in demo](#ml-model-files-trained-in-demo)
 
 
 ## Hackathon Submissions
 Content | Link
 ------- | -------------
 Github  | [Link to Github](https://github.com/AgrionTeam/Agrion) (You're at here)
-Video   | [Link to video on Youtube](https://github.com/AgrionTeam/Agrion)
-Slide   | [Link to slide](https://github.com/AgrionTeam/Agrion)
-App Prototype | [Link to Mobile App Prototype on Figma](https://github.com/AgrionTeam/Agrion)
-Business Model Canvas | [Link to AGRION's BMC](https://github.com/AgrionTeam/Agrion)
+Video   | [Link to video on Youtube](https://youtu.be/xKiDZIgeL1M)
+Slide   | [Link to slide](https://bom.to/vJOg9JI)
+App Prototype | [Link to Mobile App Prototype on Figma](https://bom.to/vG74DzM)
+Business Model Canvas | [Link to AGRION's BMC](https://bom.to/Wn6h8y1)
+All other files | [Link to Google Drive](https://bom.to/oocKraE)
 
 
 ## About AGRION Project
@@ -107,8 +114,8 @@ The model we have trained in this hackathon is [Tensorflow.js](https://www.tenso
 
 Model Types   | Files | Including
 ------------- | ----- | ---------
-Tensorflow.js | [Link to files](https://github.com/AgrionTeam/Agrion) | `metadata.json` + `model.json` + `weights.bin`
-Tensorflow Lite (Floating Point) | [Link to files](https://github.com/AgrionTeam/Agrion) | `model_unquant.tflite` + `labels.txt`
-Tensorflow Lite (Quantized) | [Link to files](https://github.com/AgrionTeam/Agrion) | `model.tflite` + `labels.txt`
-Tensorflow (Saved model) | [Link to files](https://github.com/AgrionTeam/Agrion) | `model.savedmodel` folder + `labels.txt`
-Keras (.h5 model) | [Link to files](https://github.com/AgrionTeam/Agrion) | `keras_model.h5` + `labels.txt`
+Tensorflow.js | [Link to files](https://github.com/AgrionTeam/Agrion/tree/main/trained_models/tensorflowjs_model) | `metadata.json` + `model.json` + `weights.bin`
+Tensorflow Lite (Floating Point) | [Link to files](https://github.com/AgrionTeam/Agrion/tree/main/trained_models/converted_tflite) | `model_unquant.tflite` + `labels.txt`
+Tensorflow Lite (Quantized) | [Link to files](https://github.com/AgrionTeam/Agrion/tree/main/trained_models/converted_tflite_quantized) | `model.tflite` + `labels.txt`
+Tensorflow (Saved model) | [Link to files](https://github.com/AgrionTeam/Agrion/tree/main/trained_models/converted_savedmodel) | `model.savedmodel` folder + `labels.txt`
+Keras (.h5 model) | [Link to files](https://github.com/AgrionTeam/Agrion/tree/main/trained_models/converted_keras) | `keras_model.h5` + `labels.txt`
