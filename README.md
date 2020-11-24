@@ -77,11 +77,9 @@ The process of learning begins with observations of data in order to look for pa
 
 TensorFlow is an end-to-end open-source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in Machine learning and developers easily build and deploy ML-powered applications.
 
-**Teachable Machine**
+**[**Transfer Learning**](https://www.tensorflow.org/tutorials/images/transfer_learning)**
 
-Teachable Machine is a tool that makes creating machine learning models fast and easy. The models trained with Teachable Machine are real TensorFlow.js models.
-
-Teachable Machine is using a technique called [**Transfer Learning**](https://www.tensorflow.org/tutorials/images/transfer_learning). There is a neural network that was previously trained on a large dataset, typically on a large-scale image-classification task. This model is called MobileNet and the training data for this model is called ImageNet.
+There is a neural network that was previously trained on a large dataset, typically on a large-scale image-classification task. This model is called MobileNet and the training data for this model is called ImageNet.
 
 There are papers about MobileNets and ImageNets.
 - [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/pdf/1704.04861.pdf)
