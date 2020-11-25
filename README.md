@@ -1,10 +1,10 @@
 <br>
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/AgrionTeam/Agrion">
     <img src="assets/logo-black.png" alt="Logo" height="150">
   </a>
   <p align="center">
-    The Future's bright –The Future's an AI Agriculture Marketplace
+    The Future's Bright – The Future's an AI Agriculture Marketplace
     <br>
     <a href="https://youtu.be/xKiDZIgeL1M">Video</a>
     ·
